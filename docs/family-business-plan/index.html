@@ -16,9 +16,6 @@
                 color: #c9d1d9;
             }
 
-            a { color: #4d90d1; }
-            a:hover { color: #ec6a59; }
-
             h1, h2, h3, h4, h5, h6 {
                 margin: 0;
                 padding: 0;
@@ -41,6 +38,17 @@
 
             sup {
                 font-size: 0.85rem;
+            }
+
+
+            /*===============================================================*/
+            /* utils */
+            /*===============================================================*/
+            a { color: #4d90d1; }
+            a:hover { color: #ec6a59; }
+
+            .heading-link a {
+                text-decoration: none;
             }
 
             /*===============================================================*/
@@ -124,6 +132,25 @@
                 height: calc(55vw/1.77);
                 min-width: 360px;
                 min-height: calc(360px/1.77);
+            }
+
+            /* ========================================================================= */
+            /*                                B U T T O N S                              */
+            /* ========================================================================= */
+            a.button {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                background-color: #28a745;
+                border-color: #28a745;
+                border-radius: 50rem!important;
+                padding: 24px 48px;
+                font-size: 2.2rem;
+            }
+
+            a.button:hover {
+                filter: brightness(85%);
+                color: fff;
             }
         </style>
     </head>
