@@ -54,7 +54,10 @@ a {
     text-decoration: none;
 }
 
-a:hover { color: #ec6a59; }
+a:hover {
+    color: #ec6a59;
+    text-decoration: underline;
+}
 
 /*===============================================================*/
 /* utils */
