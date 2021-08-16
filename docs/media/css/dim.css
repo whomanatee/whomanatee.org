@@ -90,6 +90,8 @@ a:hover {
     color: #c9d1d9;
 }
 
+.jumbotron hr { border-color: #c9d1d9; }
+
 /*---------------------------------------------------------------------------*/
 .jumbotron-black {
     background-color: #252931;
